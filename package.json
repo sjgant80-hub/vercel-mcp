@@ -1,0 +1,19 @@
+{
+  "name": "@ai-native-solutions/vercel-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP server for vercel · framework ISA as Claude tools · exemplar shape for AI-Native Solutions estate -mcp companions",
+  "bin": { "vercel-mcp": "src/server.js" },
+  "main": "./src/server.js",
+  "files": ["src/", "manifest.json", "README.md", "LICENSE"],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/vercel-sdk": "^1.0.0"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "claude", "foldkit", "sovereign", "estate", "isa", "konomi", "ai-native"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/sjgant80-hub/vercel-mcp.git" },
+  "homepage": "https://sjgant80-hub.github.io/vercel-mcp/",
+  "publishConfig": { "access": "public" }
+}

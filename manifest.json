@@ -1,0 +1,29 @@
+{
+  "name": "vercel-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for vercel · framework ISA as Claude-callable tools + resources",
+  "vendor": "AI-Native Solutions",
+  "license": "MIT",
+  "homepage": "https://sjgant80-hub.github.io/vercel-mcp/",
+  "transport": "stdio",
+  "entry": "src/server.js",
+  "capabilities": { "tools": true, "resources": true },
+  "tools": [
+    "foldkit_fold_number",
+    "foldkit_unfold_state",
+    "foldkit_depth_band",
+    "foldkit_classify_kappa_band",
+    "foldkit_apply_op",
+    "foldkit_kawasaki_check",
+    "foldkit_maekawa_check",
+    "foldkit_signal_survival",
+    "foldkit_unclog_gain",
+    "foldkit_probe_from_kappa"
+  ],
+  "resources": [
+    "foldkit://spine",
+    "foldkit://kappa-bands",
+    "foldkit://ops",
+    "foldkit://constants"
+  ]
+}
