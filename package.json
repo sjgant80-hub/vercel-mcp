@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/vercel-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Vercel · 40 tools from OpenAPI · MIT · AI-Native Solutions",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "vercel-mcp": "src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "manifest.json"
+  ],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/vercel-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
